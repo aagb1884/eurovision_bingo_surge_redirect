@@ -1,29 +1,47 @@
-import { Grid } from "./StyleComponents";
+import styled from "styled-components"
+import './cliche.css'
 
-const EurovisionCliche = () => {
+const EurovisionCliche = ({cardArray}) => {
+
+  //  const newCard = cardArray.map((cliche, index) => {
+            // return (cliche={cliche}, key={index}
+        // });
+        const item1 = cardArray[0]
+        const item2 = cardArray[1]
+        const item3 = cardArray[2]
+        const item4 = cardArray[3]
+        const item5 = cardArray[4]
+        const item6 = cardArray[5]
+
     return ( 
-        <>
-          <Grid>
-        <li>
-        <h2>1. Eurovision Cliche</h2>
-        </li>
-        <li>
-        <h2>2. Eurovision Cliche</h2>
-        </li>
-        <li>
-        <h2>3. Eurovision Cliche</h2>
-        </li>
-        <li>
-        <h2>4. Eurovision Cliche</h2>
-        </li>
-        <li>
-        <h2>5. Eurovision Cliche</h2>
-        </li>
-        <li>
-        <h2>6. Eurovision Cliche</h2>
-        </li>
-        </Grid>
-        </>
+      
+        <div id = "container"> 
+        
+      <div className = "grid-container">
+        
+        <div className="grid-item">
+          <button type = "button" id = "b1" class = "btn">{item1}</button>
+        </div>
+        <div className="grid-item">
+          <button type = "button" id = "b2" class = "btn">{item2}</button>
+        </div>
+        <div className="grid-item">
+          <button type = "button" id = "b3" class = "btn">{item3}</button>
+        </div>
+        <div className="grid-item">
+          <button type = "button" id = "b4" class = "btn">{item4}</button>
+        </div>
+        <div className="grid-item">
+          <button type = "button" id = "b5" class = "btn">{item5}</button>
+        </div>
+        <div className="grid-item">
+          <button type = "button" id = "b6" class = "btn">{item6}</button>
+        </div>
+        
+      </div>
+      
+    </div>
+    
      );
 }
  
