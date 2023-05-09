@@ -34,6 +34,7 @@ const clicheArray = () => {
         'traditional instrument',
         'singer looks into the camera',
         'singer brings in clenched fist',
+        
     ]
 
     return ( 

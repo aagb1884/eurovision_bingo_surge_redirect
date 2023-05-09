@@ -1,4 +1,3 @@
-import styled from "styled-components"
 import './cliche.css'
 
 const EurovisionCliche = ({cardArray}) => {
@@ -12,6 +11,17 @@ const EurovisionCliche = ({cardArray}) => {
         const item4 = cardArray[3]
         const item5 = cardArray[4]
         const item6 = cardArray[5]
+
+    const buttons = document.querySelectorAll('.btn');
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.classList.add('active');
+        });
+    });
+
+
+    
 
     return ( 
       
@@ -46,3 +56,4 @@ const EurovisionCliche = ({cardArray}) => {
 }
  
 export default EurovisionCliche;
+

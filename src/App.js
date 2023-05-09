@@ -1,7 +1,7 @@
-import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; //NEW
 import HomePage from './Components/Home';
 import BingoCard from './Components/bingo_card';
+import HowToPlay from './Components/how_to_play';
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={< HomePage />}/>
         <Route path="/bingo" element={< BingoCard/>}/>
-        {/* <Route path="/howtoplay" element={< />}/> */}
+        <Route path="/howtoplay" element={< HowToPlay />}/>
       </Routes>
     </Router>
     </div>

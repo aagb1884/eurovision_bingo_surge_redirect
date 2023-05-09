@@ -1,7 +1,7 @@
 import EurovisionCliche from "./cliche";
+import Winning from "./winning";
 import Header from "./header";
 import styled from "styled-components";
-
 
 const BingoCard = () => {
 
@@ -39,6 +39,39 @@ const BingoCard = () => {
         'singer looks into the camera',
         'singer brings in clenched fist',
         'dress is bigger than person wearing it',
+        '12 points to our neighbours',
+        'fire',
+        'someone expresses the sentiment that war is bad',
+        'someone expresses the sentiment that racism is bad',
+        'topless men',
+        'oiled topless men',
+        'banging techno',
+        'plausible incel',
+        'hot pants',
+        'mime',
+        'liberties taken with folklore',
+        'the italian entry not doing drugs',
+        'green room despaire enclave',
+        'stilts',
+        'rhyming "fire" with "higher"',
+        'monochrome (aesthetics)',
+        'monochrome (point about society)',
+        'puffy sleeves',
+        'sexy folklore',
+        'ska',
+        'gymnasts from the ceiling',
+        'riverdance (mention of)',
+        'riverdance (the actual dance)',
+        'ANOTHER KEY CHANGE',
+        'dubstep breakdown',
+        'the band are related to each other',
+        'made-up words for lyrics (eg. bingy bongy boogy bongy)',
+        'matching outfits',
+        'running on the spot',
+        'booing',
+        
+        
+        
         
     ]
 
@@ -65,11 +98,15 @@ const BingoCard = () => {
             <Header />
             <H1Style>
             <h1>Your Eurovision Bingo Card</h1>
-            </H1Style>
-            <ButtonStyle>
-            <button onClick={() => document.location.reload(true)}>Get New Card</button>
-            </ButtonStyle>
-                        <EurovisionCliche cardArray={cardArray} />               
+            <br />
+             </H1Style>
+             <PStyle>
+            <p>Need Help? <a href="/howtoplay">Click here.</a></p>
+            <br />
+            </PStyle>
+            <button type="button" id="get-cards" class="btn" onClick={() => document.location.reload(true)}>Get New Card</button>
+                        <EurovisionCliche cardArray={cardArray} />    
+                        <Winning />         
         </section>
         );
 }
@@ -80,16 +117,10 @@ const H1Style = styled.h1`
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    box-sizing: border-box;
 `
-const ButtonStyle = styled.button`
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-top: 10px;
-    width: 200px;
-    height: 100px;
+const PStyle = styled.p`
+    margin-top: 20px;
     font-size: xx-large;
-    font-weight: bold;
-    padding: 5px;
-    cursor: pointer;
+    text-align: center;
 `
