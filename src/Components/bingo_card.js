@@ -50,7 +50,7 @@ const BingoCard = () => {
         'mime',
         'liberties taken with folklore',
         'the italian entry not doing drugs',
-        'green room despaire enclave',
+        'green room despair enclave',
         'stilts',
         'rhyming "fire" with "higher"',
         'monochrome (aesthetics)',
@@ -64,7 +64,7 @@ const BingoCard = () => {
         'ANOTHER KEY CHANGE',
         'dubstep breakdown',
         'the band are related to each other',
-        'made-up words for lyrics (eg. bingy bongy boogy bongy)',
+        'lyrics like "bingy bongy boogy bongy"',
         'matching outfits',
         'running on the spot',
         'booing',
@@ -77,7 +77,9 @@ const BingoCard = () => {
         'dance track about being possessed by the spirit of Edgar Allen Poe',
         "maybe we're not so different, you and i",
         'surprise eye of sauron',
-        
+        'song with faintly threatening aura',
+        'niche kinks being catered to',
+        'human centipede',
 
         
         

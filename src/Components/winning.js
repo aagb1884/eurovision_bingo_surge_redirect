@@ -23,8 +23,9 @@ const Winning = () => {
 // const playAudio = audioElement.play()
 // } 
 
-
-
+function disableButton() {
+    document.getElementById("bingo").disabled = true;
+}
 
 
     return ( 
