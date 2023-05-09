@@ -31,7 +31,7 @@ const Winning = () => {
         <div className='bingo'>
             {/* <div id="display" onClick={playAudio}></div> */}
             <audio id="audio" src={soundfile}>BINGO</audio>
-            <input type="button" value="BINGO" onClick={play}></input>
+            <input type="button" id="bingo" value="BINGO" onClick={play}></input>
             {/* <button type="button" id="bingo" class="bingo-btn" onClick={playAudio}>BINGO!</button> */}
              </div>
     );

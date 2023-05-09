@@ -21,7 +21,6 @@ const BingoCard = () => {
         'the international jury representative sings while everyone waits for them to stop',
         'the international jury representative is drunk',
         'here\'s the esteemed old man who does the admin',
-        'has Scott Mills ever been happy?',
         'costume change',
         'Terry Wogan sardonic bitchiness compilation',
         'interpretive dance',
@@ -77,6 +76,7 @@ const BingoCard = () => {
         'goth in the matrix',
         'dance track about being possessed by the spirit of Edgar Allen Poe',
         "maybe we're not so different, you and i",
+        'surprise eye of sauron',
         
 
         
