@@ -69,7 +69,16 @@ const BingoCard = () => {
         'matching outfits',
         'running on the spot',
         'booing',
+        'dancers hiding behind the singer',
+        'fetish gear',
+        'former junior eurovision contestant',
+        "ooh you'll have someone's eye out with that",
+        "saxophone",
+        'goth in the matrix',
+        'dance track about being possessed by the spirit of Edgar Allen Poe',
+        "maybe we're not so different, you and i",
         
+
         
         
         
