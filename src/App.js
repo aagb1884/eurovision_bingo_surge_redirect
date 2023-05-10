@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; //NEW
 import HomePage from './Components/Home';
-import BingoCard from './Components/bingo_card';
-import HowToPlay from './Components/how_to_play';
+import BingoCard from './Components/BingoCard';
+import HowToPlay from './Components/HowToPlay';
 
 function App() {
 

@@ -1,6 +1,6 @@
 import './cliche.css'
-import Winning from "./winning";
-import Header from "./header";
+import Winning from "./Winning";
+import Header from "./Header";
 import styled from "styled-components";
 import ActiveButtons from "./ActiveButtons";
 

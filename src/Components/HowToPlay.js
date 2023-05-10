@@ -1,4 +1,4 @@
-import Header from "./header";
+import Header from "./Header";
 import styled from "styled-components";
 
 const HowToPlay = () => {
@@ -12,6 +12,7 @@ const HowToPlay = () => {
             <li>Every time you click 'Get New Card' or refresh the page, you get six new Eurovision cliches.</li>
             <li>Every time you see or hear one of your cliches on screen during Eurovision, click it.</li>
             <li>The aim is to click all six.</li>
+            <li>When you have got all six, make sure the sound is on on your device and click 'Bingo'.</li>
             <li>Play as many times as you want.</li>
         </ul>
         <p><a href= "/bingo">Click here to play</a></p>

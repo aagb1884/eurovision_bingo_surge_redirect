@@ -9,7 +9,7 @@ const Button = ({ cliche }) => {
             <button
                 onClick={() => setIsActive(isActive ? false : true)}
                 style={{
-                    background: isActive ? '#231557' : 'white',
+                    background: isActive ? '#231557' : '#ff1361',
                     color: isActive ? 'whitesmoke' : 'black'
                 }}
                 className="btn"
