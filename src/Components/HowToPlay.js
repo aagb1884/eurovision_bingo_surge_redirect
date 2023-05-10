@@ -1,4 +1,4 @@
-import Header from "./header";
+import Header from "./Header";
 import styled from "styled-components";
 
 const HowToPlay = () => {

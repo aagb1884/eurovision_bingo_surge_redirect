@@ -1,17 +1,23 @@
 import './cliche.css'
 import Button from './Button'
+import Winning from './winning'
+import WinningButton from './WinningButton'
 import styled from 'styled-components'
 
 function ActiveButtons({ cardArray }) {
 
   const buttons = cardArray.map((clicheStr) => {
-    return <Button cliche={clicheStr} />
+    return <Button cliche={clicheStr}/>
   })
 
   return (
-    <Wrapper>
-      {buttons}
-    </Wrapper>
+    <>
+       <Wrapper>
+        {buttons}
+      </Wrapper>
+      {/* <Winning /> */}
+      <WinningButton />
+    </>
   )
 
 }
