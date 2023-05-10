@@ -1,7 +1,8 @@
-import EurovisionCliche from "./cliche";
+import './cliche.css'
 import Winning from "./winning";
 import Header from "./header";
 import styled from "styled-components";
+import ActiveButtons from "./ActiveButtons";
 
 const BingoCard = () => {
 
@@ -75,7 +76,7 @@ const BingoCard = () => {
         "saxophone",
         'goth in the matrix',
         'dance track about being possessed by the spirit of Edgar Allen Poe',
-        "maybe we're not so different, you and i",
+        "we're not so different, you and i",
         'surprise eye of sauron',
         'song with faintly threatening aura',
         'niche kinks being catered to',
@@ -116,7 +117,8 @@ const BingoCard = () => {
             <br />
             </PStyle>
             <button type="button" id="get-cards" class="btn" onClick={() => document.location.reload(true)}>Get New Card</button>
-                        <EurovisionCliche cardArray={cardArray} />    
+                        {/* <EurovisionCliche cardArray={cardArray} />     */}
+                        <ActiveButtons cardArray={cardArray} />
                         <Winning />         
         </section>
         );
@@ -134,4 +136,22 @@ const PStyle = styled.p`
     margin-top: 20px;
     font-size: xx-large;
     text-align: center;
+`
+
+const ButtonStyle = styled.button`
+ width: 100%;
+    height: 100%;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    margin: 0.1em;
+    padding: 0.4em;
+    border: 0;
+    border-radius: 0.2em;
+    background-color: #ff1361;
+    color:black;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+        cursor: pointer; 
 `
