@@ -14,7 +14,7 @@ const BingoCard = () => {
         'graham norton is genuinely surprised',
         'graham norton mentions the staging',
         'KEY CHANGE',
-        'this song\'s message is simply that I am incredibly horny',
+        'this song\'s message is simply that the singer is incredibly horny',
         'gratuitous wind machine',
         'weird-shaped piano',
         'the hosts\' banter makes everyone clench',
@@ -81,6 +81,8 @@ const BingoCard = () => {
         'song with faintly threatening aura',
         'niche kinks being catered to',
         'human centipede',
+        'incredibly localised old ladies',
+        'ice skating',
 
 
 
@@ -89,18 +91,12 @@ const BingoCard = () => {
 
     function getCliches(EurovisionClicheArray, num) {
         const shuffled = [...EurovisionClicheArray].sort(() => 0.5 - Math.random());
-        // return EurovisionClicheArray[Math.floor(Math.random()*EurovisionClicheArray.length)]};
         return shuffled.slice(0, num);
 
     }
 
     const cardArray = getCliches(EurovisionClicheArray, 6);
 
-
-    // const newCard = cardArray.map((card) => {
-    //     return <EurovisionCliche card={card} />
-    //     console.log(newCard)
-    // });
 
     return (
         <Wrapper>
@@ -112,7 +108,6 @@ const BingoCard = () => {
                 Need Help? <a href="/howtoplay">Click here.</a>
             </PStyle>
             <button type="button" id="get-cards" className="btn" onClick={() => document.location.reload(true)}>Get New Card</button>
-            {/* <EurovisionCliche cardArray={cardArray} />     */}
             <ActiveButtons cardArray={cardArray} />
             <Winning />
         </Wrapper>
