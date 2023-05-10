@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.92f08078.css",
+    "main.js": "/static/js/main.afe383fe.js",
+    "static/js/787.74a6f14e.chunk.js": "/static/js/787.74a6f14e.chunk.js",
+    "static/media/euphoria_excerpt.mp3": "/static/media/euphoria_excerpt.2f0ce64a09dc58996412.mp3",
+    "index.html": "/index.html",
+    "main.92f08078.css.map": "/static/css/main.92f08078.css.map",
+    "main.afe383fe.js.map": "/static/js/main.afe383fe.js.map",
+    "787.74a6f14e.chunk.js.map": "/static/js/787.74a6f14e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92f08078.css",
+    "static/js/main.afe383fe.js"
+  ]
+}
