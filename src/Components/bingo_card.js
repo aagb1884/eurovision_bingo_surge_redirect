@@ -82,49 +82,50 @@ const BingoCard = () => {
         'niche kinks being catered to',
         'human centipede',
 
-        
-        
-        
+
+
+
     ]
 
     function getCliches(EurovisionClicheArray, num) {
-        const shuffled = [...EurovisionClicheArray].sort(()=> 0.5 - Math.random());
+        const shuffled = [...EurovisionClicheArray].sort(() => 0.5 - Math.random());
         // return EurovisionClicheArray[Math.floor(Math.random()*EurovisionClicheArray.length)]};
         return shuffled.slice(0, num);
-    
+
     }
-  
+
     const cardArray = getCliches(EurovisionClicheArray, 6);
-    
-
-        // const newCard = cardArray.map((card) => {
-        //     return <EurovisionCliche card={card} />
-        //     console.log(newCard)
-        // });
-        
 
 
+    // const newCard = cardArray.map((card) => {
+    //     return <EurovisionCliche card={card} />
+    //     console.log(newCard)
+    // });
 
-    return ( 
-        <section>
+    return (
+        <Wrapper>
             <Header />
             <H1Style>
-            <h1>Your Eurovision Bingo Card</h1>
-            <br />
-             </H1Style>
-             <PStyle>
-            <p>Need Help? <a href="/howtoplay">Click here.</a></p>
-            <br />
+                Your Eurovision Bingo Card
+            </H1Style>
+            <PStyle>
+                Need Help? <a href="/howtoplay">Click here.</a>
             </PStyle>
-            <button type="button" id="get-cards" class="btn" onClick={() => document.location.reload(true)}>Get New Card</button>
-                        {/* <EurovisionCliche cardArray={cardArray} />     */}
-                        <ActiveButtons cardArray={cardArray} />
-                        <Winning />         
-        </section>
-        );
+            <button type="button" id="get-cards" className="btn" onClick={() => document.location.reload(true)}>Get New Card</button>
+            {/* <EurovisionCliche cardArray={cardArray} />     */}
+            <ActiveButtons cardArray={cardArray} />
+            <Winning />
+        </Wrapper>
+    );
 }
- 
+
 export default BingoCard;
+
+const Wrapper = styled.section`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`
 
 const H1Style = styled.h1`
     display: flex;
@@ -136,6 +137,7 @@ const PStyle = styled.p`
     margin-top: 20px;
     font-size: xx-large;
     text-align: center;
+    margin-bottom: 10px;
 `
 
 const ButtonStyle = styled.button`
