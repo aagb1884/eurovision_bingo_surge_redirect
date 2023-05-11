@@ -86,13 +86,18 @@ const BingoCard = () => {
         'ice skating',
         'who is this childman?',
         "everybody's talking about those kinky boots",
-        "that's not in Europe",
+        "well that's not in Europe",
         "audience face paint",
         "METAL",
         "tonal whiplash",
-        "bit in song that goes CLAPCLAPCLAPCLAPCLAPCLAPCLAPCLAPCLAP",
+        "bit that goes CLAPCLAPCLAPCLAP (CLAPCLAPCLAPCLAP)",
         "pleather",
-
+        "water feature",
+        "floor screaming",
+        "i am reminded of the nineties and thus my own mortality",
+        'hot pants',
+        'regional variation on yodelling',
+        
     ]
 
     function getCliches(EurovisionClicheArray, num) {
