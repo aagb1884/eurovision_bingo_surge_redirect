@@ -84,6 +84,7 @@ const BingoCard = () => {
         'human centipede',
         'incredibly localised old ladies',
         'ice skating',
+        'who is this childman?',
     ]
 
     function getCliches(EurovisionClicheArray, num) {
