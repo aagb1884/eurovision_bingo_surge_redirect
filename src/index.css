@@ -106,6 +106,9 @@ code {
  h2{
   font-size:large;
  }
+ .grid-item{
+  width: auto;
+ }
 }
 
 .animate-header
