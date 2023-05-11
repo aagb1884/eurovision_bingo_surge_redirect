@@ -13,7 +13,7 @@
     "styled-components": "^5.3.10",
     "use-sound": "^4.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://aagb1884.github.io/eurovisionBingo"
+    "homepage": "https://poised-step.surge.sh/bingo"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "npm run build && surge ./build/ https://poised-step.surge.sh"
   },
   "eslintConfig": {
     "extends": [

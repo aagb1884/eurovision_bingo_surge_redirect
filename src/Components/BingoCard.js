@@ -1,10 +1,11 @@
 import './cliche.css'
 import Winning from "./Winning";
-import Header from "./Header";
 import styled from "styled-components";
 import ActiveButtons from "./ActiveButtons";
+import {useState} from 'react';
 
 const BingoCard = () => {
+    const [isHovering, setIsHovering] = useState(false);
 
     const EurovisionClicheArray = [
         'ciabatta smelling hipster\'s folksy simpering',
@@ -83,30 +84,49 @@ const BingoCard = () => {
         'human centipede',
         'incredibly localised old ladies',
         'ice skating',
-
-
-
-
     ]
 
     function getCliches(EurovisionClicheArray, num) {
         const shuffled = [...EurovisionClicheArray].sort(() => 0.5 - Math.random());
         return shuffled.slice(0, num);
-
     }
 
     const cardArray = getCliches(EurovisionClicheArray, 6);
 
+    const handleMouseOver = () => {
+        setIsHovering(true);
+    }
+    const handleMouseOut = () => {
+        setIsHovering(false);
+    }
 
     return (
         <Wrapper>
-            <Header />
-            <H1Style>
-                Your Eurovision Bingo Card
-            </H1Style>
-            <PStyle>
-                Need Help? <a href="/howtoplay">Click here.</a>
-            </PStyle>
+            <ListStyle>
+            <div>
+            <div>
+            <div
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}
+            >
+            <h2>How does this work then?</h2>
+            </div>
+
+            {isHovering && (
+            <div>
+        <ul>
+            <li>Every time you click 'Get New Card' or refresh the page, you get six new Eurovision cliches.</li>
+            <li>Every time you see or hear one of your cliches on screen during Eurovision, click it.</li>
+            <li>The aim is to click all six.</li>
+            <li>When you have got all six, make sure the sound is on on your device and click 'Bingo'.</li>
+            <li>Play as many times as you want.</li>
+            <li>To remove this message either move or click away from it.</li>
+        </ul>
+                </div>
+            )}
+            </div>
+            </div>
+            </ListStyle>
             <button type="button" id="get-cards" className="btn" onClick={() => document.location.reload(true)}>Get New Card</button>
             <ActiveButtons cardArray={cardArray} />
             <Winning />
@@ -128,11 +148,12 @@ const H1Style = styled.h1`
     margin-top: 20px;
     box-sizing: border-box;
 `
-const PStyle = styled.p`
+const ListStyle = styled.ul`
     margin-top: 20px;
     font-size: xx-large;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px;
+    list-style-type: none;
 `
 
 const ButtonStyle = styled.button`
