@@ -101,7 +101,10 @@ code {
    -webkit-text-fill-color: transparent;
    animation: textclip 2s linear infinite;
    display: inline-block;
-       font-size: 40px;
+       font-size: 60px;
+ }
+ h2{
+  font-size:large;
  }
 }
 
