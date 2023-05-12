@@ -21,6 +21,14 @@ If you're on a touch-screen device then if you click on 'How does this work then
 
 As you have probably worked out, the text describes how the app works. 
 
+### Future Development
+
+- I need to clean up the code (it was refactored to a single page app quite late in the day, meaning a few files are no longer being used).
+- I will add useState so that you get new Bingo cards without having to refresh the page.
+- I would like to disable the 'Bingo' button until you have clicked all six of your Bingo card buttons.
+- I hope to add a little ticker tape animation when you click 'Bingo'.
+- I could add a backend so that people could save their scores (highest scores being the shortest time between getting a new Bingo card and clicking 'Bingo')
+
 ## Eurovision Bingo Code
 
 ## CSS
@@ -31,7 +39,7 @@ The hover glow effect on the bingo card buttons came from [here](https://codepen
 
 ## React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). To run it you will need to use npm start as described below.
 
 ### Available Scripts
 
