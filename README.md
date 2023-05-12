@@ -27,7 +27,7 @@ As you have probably worked out, the text describes how the app works.
 
 I looked up things like text and button CSS designs and adapted them to my needs. For example, the 'EUROVISION BINGO' header came from [this codepen.io animation](https://codepen.io/alvarotrigo/pen/PoKMyNO) which I found via [this blog](https://alvarotrigo.com/blog/css-text-animations/).
 
-The hover glow effect on the bingo card buttons came from [here] (https://codepen.io/kocsten/pen/rggjXp) which I found via [this list](https://dev.to/webdeasy/top-20-css-buttons-animations-f41).
+The hover glow effect on the bingo card buttons came from [here](https://codepen.io/kocsten/pen/rggjXp) which I found via [this list](https://dev.to/webdeasy/top-20-css-buttons-animations-f41).
 
 ## React
 
