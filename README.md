@@ -10,12 +10,12 @@ You can play the app [here](https://poised-step.surge.sh/).
 
 On a desktop, if you hover over 'How does this work then?' the following text appears:
 
--Every time you click 'Get New Card' or refresh the page, you get six new Eurovision cliches.
--Every time you see or hear one of your cliches on screen during Eurovision, click it.
--The aim is to click all six.
--When you have got all six, make sure the sound is on on your device and click 'Bingo'.
--Play as many times as you want.
--To remove this message either move or click away from it.
+- Every time you click 'Get New Card' or refresh the page, you get six new Eurovision cliches.
+- Every time you see or hear one of your cliches on screen during Eurovision, click it.
+- The aim is to click all six.
+- When you have got all six, make sure the sound is on on your device and click 'Bingo'.
+- Play as many times as you want.
+- To remove this message either move or click away from it.
 
 If you're on a touch-screen device then if you click on 'How does this work then?' the message appears, and if you click somewhere else the text will disappear.
 
