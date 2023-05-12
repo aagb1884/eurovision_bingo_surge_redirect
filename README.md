@@ -4,9 +4,9 @@ I built this React JS app in my spare time during my CodeClan course over the co
 
 ## How to Play Eurovision Bingo
 
-You can play the app [here](https://poised-step.surge.sh/)
+You can play the app [here](https://poised-step.surge.sh/).
 
-(I used [Surge to do this](https://gist.github.com/ebectar/6b44cf75f63df629d2fe9e0e46bb1dec))
+(I used [Surge for the hosting](https://gist.github.com/ebectar/6b44cf75f63df629d2fe9e0e46bb1dec))
 
 On a desktop, if you hover over 'How does this work then?' the following text appears:
 
