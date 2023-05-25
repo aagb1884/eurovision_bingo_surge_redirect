@@ -31,6 +31,8 @@ As you have probably worked out, the text describes how the app works.
 
 ## Eurovision Bingo Code
 
+I apologise for the wet code, once I have finished my CodeClan course I will dry it.
+
 ## CSS
 
 I looked up things like text and button CSS designs and adapted them to my needs. For example, the 'EUROVISION BINGO' header came from [this codepen.io animation](https://codepen.io/alvarotrigo/pen/PoKMyNO) which I found via [this blog](https://alvarotrigo.com/blog/css-text-animations/).
