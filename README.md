@@ -24,7 +24,6 @@ As you have probably worked out, the text describes how the app works.
 ### Future Development
 
 - I need to clean up the code (it was refactored to a single page app quite late in the day, meaning a few files are no longer being used).
-- I will add useState so that you get new Bingo cards without having to refresh the page.
 - I would like to disable the 'Bingo' button until you have clicked all six of your Bingo card buttons.
 - I hope to add a little ticker tape animation when you click 'Bingo'.
 - I could add a backend so that people could save their scores (highest scores being the shortest time between getting a new Bingo card and clicking 'Bingo')
