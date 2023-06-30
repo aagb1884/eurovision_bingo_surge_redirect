@@ -14,10 +14,10 @@ function disableButton() {
 // get grid buttons working then set button below to be disabled until all six buttons are pressed/active
 
     return ( 
-        <div className='bingo'>
+        <section className='bingo'>
             <audio id="audio" src={soundfile}>BINGO</audio>
             <input type="button" id="bingo" value="BINGO" onClick={play}></input>
-             </div>
+             </section>
     );
     }
 

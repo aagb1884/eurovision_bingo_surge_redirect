@@ -117,17 +117,17 @@ const BingoCard = () => {
     return (
         <Wrapper>
             <ListStyle>
-            <div>
-            <div>
-            <div
+            <section className='how-to-use-app'>
+           
+            <header
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}
             >
             <h2>How does this work then?</h2>
-            </div>
+            </header>
 
             {isHovering && (
-            <div>
+            <section>
         <ul>
             <li>Every time you click 'Get New Card' or refresh the page, you get six new Eurovision cliches.</li>
             <li>Every time you see or hear one of your cliches on screen during Eurovision, click it.</li>
@@ -136,10 +136,10 @@ const BingoCard = () => {
             <li>Play as many times as you want.</li>
             <li>To remove this message either move or click away from it.</li>
         </ul>
-                </div>
+                </section>
             )}
-            </div>
-            </div>
+           
+            </section>
             </ListStyle>
             <button type="button" id="get-cards" className="btn" onClick={() => document.location.reload(true)}>Get New Card</button>
             <ActiveButtons cardArray={cardArray} />

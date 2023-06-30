@@ -4,10 +4,12 @@ const HomePage = () => {
     return ( 
         <div className="container">
         <div className="row">
-          <div className="col-md-12 text-center">
-            <h3 className="animate-charcter"> EUROVISION BINGO</h3>
-            <BingoCard />
-          </div>
+          <header className="animate-charcter">
+            <h3>EUROVISION BINGO</h3>
+          </header>
+            <main>
+              <BingoCard />
+            </main>
         </div>
       </div>
      );
