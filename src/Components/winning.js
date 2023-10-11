@@ -5,7 +5,6 @@ const Winning = () => {
     function play() {
                 var audio = document.getElementById("audio");
                 audio.play();
-
               }
 
 function disableButton() {
@@ -16,7 +15,7 @@ function disableButton() {
     return ( 
         <section className='bingo'>
             <audio id="audio" src={soundfile}>BINGO</audio>
-            <input type="button" id="bingo" value="BINGO" onClick={play}></input>
+            <input type="button" data-testid="audio-button" id="bingo" value="BINGO" onClick={play}></input>
              </section>
     );
     }
