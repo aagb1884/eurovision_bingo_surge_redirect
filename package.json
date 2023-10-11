@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "npm run build && surge ./build/ https://poised-step.surge.sh"

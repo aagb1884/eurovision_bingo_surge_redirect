@@ -14,6 +14,7 @@ const Button = ({ cliche }) => {
                 }}
                 className="btn"
                 type="button"
+                data-testid="card-button"
             >
                 {cliche}
             </button>
