@@ -4,6 +4,11 @@ import styled from "styled-components";
 import ActiveButtons from "./ActiveButtons";
 import {useState} from 'react';
 
+export const handleGetNewCards = (EurovisionClicheArray) => {
+    const shuffled = [...EurovisionClicheArray].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, 6);
+}
+
 const BingoCard = () => {
     const [isHovering, setIsHovering] = useState(false);
 
@@ -105,7 +110,11 @@ const BingoCard = () => {
         return shuffled.slice(0, num);
     }
 
-    const cardArray = getCliches(EurovisionClicheArray, 6);
+    const [cardArray, setCardArray] = useState(getCliches(EurovisionClicheArray, 6));
+
+    const handleGetNewCards = () => {
+        setCardArray(getCliches(EurovisionClicheArray, 6));
+    }
 
     const handleMouseOver = () => {
         setIsHovering(true);
@@ -141,7 +150,7 @@ const BingoCard = () => {
            
             </section>
             </ListStyle>
-            <button type="button" id="get-cards" className="btn" onClick={() => document.location.reload(true)}>Get New Card</button>
+            <button type="button" data-testid="get-cards-button" id="get-cards" className="btn" onClick={handleGetNewCards}>Get New Card</button>
             <ActiveButtons cardArray={cardArray} />
             <Winning />
         </Wrapper>
@@ -149,6 +158,7 @@ const BingoCard = () => {
 }
 
 export default BingoCard;
+
 
 const Wrapper = styled.section`
     display: flex;
