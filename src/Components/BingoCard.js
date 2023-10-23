@@ -1,7 +1,5 @@
-import './cliche.css'
-import Winning from "./Winning";
+import './cliche.css';
 import styled from "styled-components";
-import ActiveButtons from "./ActiveButtons";
 import {useState} from 'react';
 
 export const handleGetNewCards = (EurovisionClicheArray) => {
@@ -150,9 +148,10 @@ const BingoCard = () => {
            
             </section>
             </ListStyle>
-            <button type="button" data-testid="get-cards-button" id="get-cards" className="btn" onClick={handleGetNewCards}>Get New Card</button>
-            <ActiveButtons cardArray={cardArray} />
-            <Winning />
+            <h1><a href="https://andrewblair.co.uk/apps/eurovision-bingo">This app can now be found at the developer's website</a></h1>
+            {/* <button type="button" data-testid="get-cards-button" id="get-cards" className="btn" onClick={handleGetNewCards}>Get New Card</button>
+            <ActiveButtons cardArray={cardArray} /> */}
+            
         </Wrapper>
     );
 }

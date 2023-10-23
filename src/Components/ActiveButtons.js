@@ -4,15 +4,17 @@ import styled from 'styled-components'
 
 function ActiveButtons({ cardArray }) {
 
-  const buttons = cardArray.map((clicheStr) => {
-    return <Button cliche={clicheStr} />
-  })
+  // const buttons = cardArray.map((clicheStr) => {
+  //   return <Button cliche={clicheStr} />
+  // })
 
-  return (
-    <Wrapper>
-      {buttons}
-    </Wrapper>
-  )
+  return ( <> </>)
+    // <Wrapper>
+    //   {buttons}
+    // </Wrapper>
+
+    
+  
 
 }
 
