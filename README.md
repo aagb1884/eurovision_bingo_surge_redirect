@@ -2,11 +2,13 @@
 
 I built this React JS app in my spare time during my CodeClan course over the course of a week before Eurovision 2023. It's a Bingo game that gives you six random Eurovision cliches/tropes as buttons, with a view to pressing all six buttons down and then clicking the Bingo button for your reward.
 
+This repo is now being used for the original Surge hosted version of the app, which now has a redirect to my portfolio website (see below for links)
+
 ## How to Play Eurovision Bingo
 
 You can play the app [here](https://andrewblair.co.uk/apps/eurovision-bingo).
 
-(I used [Surge for the hosting](https://gist.github.com/ebectar/6b44cf75f63df629d2fe9e0e46bb1dec))
+(I initially used [Surge for the hosting](https://gist.github.com/ebectar/6b44cf75f63df629d2fe9e0e46bb1dec))
 
 On a desktop, if you hover over 'How does this work then?' the following text appears:
 
@@ -24,7 +26,7 @@ As you have probably worked out, the text describes how the app works.
 ### Future Development
 
 - I need to clean up the code (it was refactored to a single page app quite late in the day, meaning a few files are no longer being used).
-- I would like to disable the 'Bingo' button until you have clicked all six of your Bingo card buttons.
+- I would like to disable the 'Bingo' button until you have clicked all six of your Bingo card buttons (Done, but yet to upload)
 - I hope to add a little ticker tape animation when you click 'Bingo'.
 - I could add a backend so that people could save their scores (highest scores being the shortest time between getting a new Bingo card and clicking 'Bingo')
 
